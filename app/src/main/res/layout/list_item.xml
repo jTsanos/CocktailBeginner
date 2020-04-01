@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/onoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="10dp"
+        >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:padding="10dp"
+         >
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/Ingredients"
+            android:text="Ingredients"
+            android:textSize="21sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff00"
+            android:textStyle="bold"
+            />
+
+
+
+
+    <TextView
+
+    android:id="@+id/ingredient1"
+    android:layout_width="wrap_content"
+
+
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:textStyle="bold"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/ingredient2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+
+    <TextView
+        android:id="@+id/ingredient3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/ingredient4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+         />
+
+
+    <TextView
+        android:id="@+id/ingredient5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ingredient6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+       />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="166dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+
+            <TextView
+
+                android:text="Measures"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff00"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/measure1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/measure2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/measure3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/measure4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/measure5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/measure6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/eikona"
+        android:background="@drawable/imgback"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
+
+
